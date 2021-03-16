@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ActiTimeSuite]">
+  <listeners>
+    <listener class-name="com.actitime.base.BaseClass"/>
+  </listeners>
+  <test name="SmokeTests(failed)">
+    <classes>
+      <class name="com.actitime.tests.Login">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="afterClass"/>
+          <include name="beforeclass"/>
+          <include name="beforeTest"/>
+          <include name="closeBrowser"/>
+          <include name="login_002"/>
+        </methods>
+      </class> <!-- com.actitime.tests.Login -->
+    </classes>
+  </test> <!-- SmokeTests(failed) -->
+</suite> <!-- Failed suite [ActiTimeSuite] -->

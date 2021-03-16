@@ -1,0 +1,15 @@
+<suite name="ActiTimeSuite"  >
+
+ <listeners>
+    <listener class-name="com.actitime.base.BaseClass" />
+  </listeners>
+
+
+  <test name="SmokeTests" >
+    <classes>
+       <class name="com.actitime.tests.Login"/>             
+    </classes>
+  </test>
+  
+  
+</suite>
